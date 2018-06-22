@@ -3,7 +3,7 @@
   "displayName": "Terminal In Place",
   "description": "Launch your own vscode terminal in the directory of your focus file.",
   "icon": "images/favicon.png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Maples7 <maples7.com>",
   "publisher": "Maples7",
   "license": "GPLv3",

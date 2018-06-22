@@ -15,7 +15,7 @@ There are 2 ways to use this extension in [VSCode](https://code.visualstudio.com
 
 1.  Open [Visual Studio Code](https://code.visualstudio.com/)
 2.  Press `Ctrl+P` to open the Quick Open dialog
-3.  Type `ext install terminal-inplace` to find the extension
+3.  Type `ext install Terminal In Place` to find the extension
 4.  Click the `Install` button, then the `Enable` button
 
 OR
