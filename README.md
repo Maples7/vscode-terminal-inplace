@@ -1,65 +1,30 @@
-# terminal-inplace README
+# terminal-inplace
+
+[![http://aka.ms/terminal-inplace](https://vsmarketplacebadge.apphb.com/version/terminal-inplace.vim.svg)](http://aka.ms/vscodevim)
 
 [VSCode Extension] Launch your own vscode terminal in the directory of your focus file.
 
-## Features
+## Usage
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+There are 2 ways to use this extension in [VSCode](https://code.visualstudio.com/):
 
-For example if there is an image subfolder under your extension project workspace:
+1. Use shortcut `alt+ctrl+\`` to launch an inner terminal whose current working directory is the directory in where your open focus file stay. As we all know, by default in VSCode, `ctrl+\`` can toggle the inner terminal and this is unchanged. That's to say, by adding an `alt`, we make a candy for the inner terminal in VSCode.
+2. Open Command Palette in VSCode and find `Terminal In Place` command to execute.
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Installation
 
-## Requirements
+1. Open [Visual Studio Code](https://code.visualstudio.com/)
+2. Press `Ctrl+P` to open the Quick Open dialog
+3. Type `ext install terminal-inplace` to find the extension
+4. Click the `Install` button, then the `Enable` button
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+OR
 
-## Extension Settings
+1. Open the Extensions tab in [Visual Studio Code](https://code.visualstudio.com/)
+2. Type `terminal-inplace` to find the extension
+3. Click the `Install` button, then the `Enable` button
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## LICENSE
 
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: enable/disable this extension
-- `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[GPLv3](./LICENSE)
