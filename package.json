@@ -1,9 +1,25 @@
 {
   "name": "terminal-inplace",
-  "displayName": "terminal-inplace",
+  "displayName": "Terminal In Place",
   "description": "Launch your own vscode terminal in the directory of your focus file.",
-  "version": "0.1.0",
+  "icon": "images/favicon.png",
+  "version": "0.1.1",
+  "author": "Maples7 <maples7.com>",
   "publisher": "Maples7",
+  "license": "GPLv3",
+  "homepage": "https://github.com/Maples7/vscode-terminal-inplace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maples7/vscode-terminal-inplace.git"
+  },
+  "bugs": "https://github.com/Maples7/vscode-terminal-inplace/issues",
+  "keywords": [
+    "terminal",
+    "cmd",
+    "iTerm2",
+    "directory",
+    "in-place"
+  ],
   "engines": {
     "vscode": "^1.24.0"
   },
