@@ -31,8 +31,9 @@ function activate(context) {
       }
       console.log(finalPath);
 
-      const terminal = vscode.window.createTerminal({ cwd: finalPath });
+      const terminal = vscode.window.createTerminal();
       terminal.show(false);
+      terminal.sendText(`cd "${finalPath}"`);
     }
   );
 
