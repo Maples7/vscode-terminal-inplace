@@ -1,6 +1,6 @@
 # terminal-inplace
 
-[![http://aka.ms/terminal-inplace](https://vsmarketplacebadge.apphb.com/version/terminal-inplace.vim.svg)](http://aka.ms/vscodevim)
+[![https://marketplace.visualstudio.com/items?itemName=Maples7.terminal-inplace](https://vsmarketplacebadge.apphb.com/version/Maples7.terminal-inplace.svg)](https://marketplace.visualstudio.com/items?itemName=Maples7.terminal-inplace)
 
 [VSCode Extension] Launch your own vscode terminal in the directory of your focus file.
 
