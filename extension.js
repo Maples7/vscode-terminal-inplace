@@ -1,7 +1,8 @@
+const fs = require('fs');
+const path = require('path');
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
-const path = require('path');
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -23,17 +24,18 @@ function activate(context) {
       // Display a message box to the user
       // vscode.window.showInformationMessage('Hello World!');
 
-      let finalPath = vscode.workspace.rootPath;
       const openFiles = vscode.workspace.textDocuments;
-      if (openFiles.length > 0) {
-        const focusFilePath = openFiles[openFiles.length - 1].fileName;
-        finalPath = path.dirname(focusFilePath);
-      }
-      console.log(finalPath);
 
       const terminal = vscode.window.createTerminal();
       terminal.show(false);
-      terminal.sendText(`cd "${finalPath}"`);
+
+      if (openFiles.length > 0) {
+        const focusFilePath = openFiles[openFiles.length - 1].fileName;
+        const focusDirPath = path.dirname(focusFilePath);
+        if (fs.existsSync(focusDirPath)) {
+          terminal.sendText(`cd "${focusDirPath}"`);
+        }
+      }
     }
   );
 
