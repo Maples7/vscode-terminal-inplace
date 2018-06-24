@@ -27,7 +27,7 @@ See the snippet:
 OR
 
 1.  Open the Extensions tab in [Visual Studio Code](https://code.visualstudio.com/)
-2.  Type `terminal-inplace` to find the extension
+2.  Type `Terminal In Place` to find the extension
 3.  Click the `Install` button, then the `Enable` button
 
 ## LICENSE
