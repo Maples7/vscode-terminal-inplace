@@ -16,7 +16,7 @@ function activate(context) {
         }
       }
       if (focusFilePath) {
-        let focusDirPath = path.dirname(focusFilePath);
+        const focusDirPath = path.dirname(focusFilePath);
         if (fs.existsSync(focusDirPath)) {
           const terminal = vscode.window.createTerminal({
             cwd: focusDirPath
