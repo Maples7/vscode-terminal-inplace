@@ -63,3 +63,5 @@ typings/
 .vscode-test/
 *.vsix
 .DS_Store
+out
+.vscode
