@@ -4,6 +4,12 @@ All notable changes to the "terminal-inplace" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.2] - 2019-05-03
+
+### Changed
+
+- Upgrade devDependencies to get ride of a security vulnerability.
+
 ## [2.0.1] - 2019-01-24
 
 ### Changed
